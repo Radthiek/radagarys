@@ -5,14 +5,14 @@
     "author": "Megabyte918 (https://github.com/Megabyte918)",
     "homepage": "https://github.com/Megabyte918/MultiOgar-Edited",
     "license": "Apache-2.0",
-    "main": "src/index.js",
+    "main": "node index.js",
     "dependencies": {
         "ws": "1.1.0",
         "figlet":"latest"
     },
     "devDependencies": {},
     "scripts": {
-        "start": "cd src && node index"
+        "start": "node index"
     },
     "repository": {
         "type": "git",
